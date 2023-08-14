@@ -1,0 +1,87 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+section {
+    padding: 3rem;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+.project img {
+    max-width: 80%;
+    height: auto;
+    border: 1px solid #ccc;
+    /* Increase the width and height to make images larger */
+    width: 80%;
+    max-height: 300px; /* Adjust this value as needed */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    section {
+        padding: 2rem;
+    }
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative; /* Add this */
+}
+
+header img {
+    max-width: 100px; /* Adjust the size of the logo */
+    height: auto;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1rem;
+}
+
